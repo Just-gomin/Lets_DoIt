@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Let's Do It</title>
+    <link rel="stylesheet" href="./css/default.css" />
+    <link rel="stylesheet" href="./css//index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="sidebar__container">
+        <div class="clock__container">
+          <canvas class="js-clockAndProgressbar"></canvas>
+        </div>
+        <form class="js-greetingForm">
+          <input
+            class="js-greetingInput"
+            type="text"
+            placeholder="이름을 알려주세요!성은 빼주시겠어요?:)"
+          />
+        </form>
+        <h4 class="js-greetingMSG"></h4>
+      </div>
+      <div class="todolist__container">
+        <h2>오늘의 할일!😎</h2>
+        <form class="js-todoForm">
+          <input
+            class="js-todoInput"
+            type="text"
+            placeholder="할 일을 적어주세요😁"
+          />
+        </form>
+        <ul class="js-todoList"></ul>
+      </div>
+    </main>
+    <script src="./js/greeting.js"></script>
+    <script src="./js/toDoList.js"></script>
+  </body>
+</html>
