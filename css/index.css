@@ -5,3 +5,7 @@
 .showing-on {
   display: block;
 }
+
+.todo-done {
+  text-decoration: line-through;
+}
